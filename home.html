@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+    <style>
+        /* Internal CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>priyanka</h1>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My First Webpage!</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>Hello, I'm a web development enthusiast! This is my first webpage created using HTML and CSS.</p>
+        
+        <h3>My Favorite Activities:</h3>
+        <ul>
+            <li>Programming</li>
+            <li>Reading Books</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+
+        <h3>Contact Me</h3>
+        <p>If you'd like to reach out, feel free to send an email to <a href="mailto:example@example.com">example@example.com</a>.</p>
+
+        <h3>Here's an Image of a Beautiful Landscape:</h3>
+        <img src="https://via.placeholder.com/600x400" alt="Beautiful Landscape" style="width:100%; max-width:600px;">
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My First Webpage. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
